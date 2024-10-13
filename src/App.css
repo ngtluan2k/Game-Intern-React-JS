@@ -1,0 +1,81 @@
+/* Color classes */
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+.app {
+  margin-left: 50px;
+}
+
+.header-column {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.game-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.row label, 
+.row input {
+  width: 200px;
+  text-align: left;
+}
+.row input {
+  border-radius: 5px;
+}
+
+.btn_play {
+  margin-top: 20px;
+}
+
+.circle {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.circle.red {
+  background-color: red;
+  color: white;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.game-board-wrapper {
+  width: 700px;
+  height: 700px;
+  border: 2px solid black;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
